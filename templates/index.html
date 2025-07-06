@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><title>AviatorPredictorTG</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><div class="container"><h1>✈️ AviatorPredictorTG</h1>
+<button onclick="location.href='/predict'">🎯 Lancer Prédiction IA</button>
+<button onclick="location.href='/graph'">📈 Voir Graphique</button>
+<button onclick="location.href='/history'">📊 Historique</button>
+<div class="results">{% if prediction %}<h2>Résultat IA : {{ prediction }}</h2><p>Derniers multiplicateurs : {{ last_5 }}</p>{% endif %}</div></div>
+</body></html>

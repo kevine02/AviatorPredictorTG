@@ -1,0 +1,11 @@
+flask
+pandas
+numpy
+matplotlib
+tensorflow
+joblib
+apscheduler
+playwright
+pytesseract
+pillow
+python-telegram-bot==13.7
