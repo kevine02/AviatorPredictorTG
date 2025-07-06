@@ -1,0 +1,13 @@
+{
+  "name": "AviatorPredictorTG",
+  "services": [
+    {
+      "name": "aviator-web",
+      "startCommand": "python3 main.py",
+      "env": {
+        "BOT_TOKEN": "ton_token",
+        "CHAT_ID": "ton_chat_id"
+      }
+    }
+  ]
+}
