@@ -1,1 +1,1 @@
-{ "BOT_TOKEN": "TON_TOKEN", "CHAT_ID": "TON_CHAT_ID" }
+{ "BOT_TOKEN": "${BOT_TOKEN}", "CHAT_ID": "${CHAT_ID}" }
